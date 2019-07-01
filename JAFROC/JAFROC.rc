@@ -1,0 +1,620 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\JAFROC.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\JAFROC.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 216, 68
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About JAFROC"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "JAFROC, Version 4.1a",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012 DevChakraborty.com",IDC_STATIC,41,26,167,8
+    DEFPUSHBUTTON   "OK",IDOK,158,47,50,14,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+END
+
+IDD_JAFROC_DIALOG DIALOGEX 0, 0, 450, 315
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "JAFROC"
+MENU IDR_MENU1
+FONT 10, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_CONSOLE,0,22,450,293,ES_MULTILINE | ES_AUTOVSCROLL | ES_NOHIDESEL | ES_READONLY | WS_VSCROLL
+END
+
+IDD_RAW_FROC DIALOGEX 0, 0, 627, 391
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Empirical Plots"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "CLOSE",IDOK,116,131,70,14
+    PUSHBUTTON      "Save As CSV",IDC_SAVE_CSV,7,131,70,14
+    LTEXT           "Select reader and modality to plot",IDC_RAW_FROC_LABEL,7,7,235,8
+    LISTBOX         IDC_RAW_PLOT_MODALITY,100,32,85,82,LBS_MULTIPLESEL | LBS_OWNERDRAWVARIABLE | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_RAW_PLOT_READER,7,32,85,82,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "READER",IDC_RAW_FROC_LABEL2,7,21,85,8
+    LTEXT           "MODALITY",IDC_RAW_FROC_LABEL3,101,21,84,8
+END
+
+IDD_FIT_PLOT DIALOGEX 0, 0, 627, 391
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parameteric Plots"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "CLOSE",IDOK,116,118,70,14
+    PUSHBUTTON      "Save As CSV",IDC_SM_FIT_SAVE_CSV,7,118,70,14
+    LTEXT           "Select reader and modality to plot",IDC_RAW_FROC_LABEL,7,7,235,8
+    LISTBOX         IDC_PLOT_MODALITY,100,32,85,82,LBS_MULTIPLESEL | LBS_OWNERDRAWVARIABLE | LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_PLOT_READER,7,32,85,82,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "READER",IDC_RAW_FROC_LABEL2,7,21,85,8
+    LTEXT           "MODALITY",IDC_RAW_FROC_LABEL3,101,21,84,8
+    EDITTEXT        IDC_PARAM_SUMMARY,7,137,271,55,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_SAMPLE_SIZE DIALOGEX 0, 0, 387, 246
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sample Size Estimation"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK - Send the result to report",IDOK,7,225,145,14
+    PUSHBUTTON      "Cancel - Do not report",IDCANCEL,235,225,145,14
+    LISTBOX         IDC_SS_MODALITY,7,47,94,46,LBS_SORT | LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Modality",IDC_STATIC,7,36,28,8
+    LTEXT           "ROC Effect Size",IDC_STATIC,7,7,52,8
+    EDITTEXT        IDC_ES_ROC,7,17,95,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Recalculate",IDC_SS_RECALCULATE,7,169,96,30
+    EDITTEXT        IDC_SS_SUMMARY,120,7,260,213,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "Alpha",IDC_STATIC,7,98,19,8
+    EDITTEXT        IDC_SS_ALPHA,7,108,95,14,ES_AUTOHSCROLL
+    LTEXT           "Desired Power (1-beta)",IDC_STATIC,7,129,76,8
+    EDITTEXT        IDC_SS_DESIRED_POWER,7,140,95,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,1,0,0
+ PRODUCTVERSION 4,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "DevChakraborty.com"
+            VALUE "FileDescription", "JAFROC Analysis Software"
+            VALUE "FileVersion", "4.1.0.0"
+            VALUE "InternalName", "JAFROC.exe"
+            VALUE "LegalCopyright", "2011 (c) DevChakraborty.com.  All rights reserved."
+            VALUE "OriginalFilename", "JAFROC.exe"
+            VALUE "ProductName", "JAFROC Analysis Software"
+            VALUE "ProductVersion", "4.1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 61
+    END
+
+    IDD_JAFROC_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 150
+        VERTGUIDE, 249
+        TOPMARGIN, 7
+    END
+
+    IDD_RAW_FROC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 620
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 384
+    END
+
+    IDD_FIT_PLOT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 618
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 383
+    END
+
+    IDD_SAMPLE_SIZE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 380
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Select Data File...",         IDM_FILE_SELECTDATAFILE
+        MENUITEM "Exit",                        IDM_FILE_EXIT
+    END
+    POPUP "Analysis Method", INACTIVE
+    BEGIN
+        POPUP "ROC"
+        BEGIN
+            POPUP "Highest Rating Inferred ROC FOM"
+            BEGIN
+                MENUITEM "AUC",                         IDM_ROC_HR_AUC, INACTIVE
+                MENUITEM "SENSITIVITY",                 IDM_ROC_HR_SENSITIVITY, INACTIVE
+                MENUITEM "SPECIFICITY",                 IDM_ROC_HR_SPECIFICITY, INACTIVE
+            END
+            POPUP "Song A1 Inferred ROC FOM"
+            BEGIN
+                MENUITEM "AUC",                         IDM_ROC_SONG_A1_AUC, INACTIVE
+                MENUITEM "SENSITIVITY",                 IDM_ROC_SONG_A1_SENSITIVITY, INACTIVE
+                MENUITEM "SPECIFICITY",                 IDM_ROC_SONG_A1_SPECIFICITY, INACTIVE
+            END
+            POPUP "Song A2 Inferred ROC FOM"
+            BEGIN
+                MENUITEM "AUC",                         IDM_ROC_SONG_A2_AUC, INACTIVE
+            END
+        END
+        POPUP "FROC"
+        BEGIN
+            MENUITEM "JAFROC1",                     IDM_FROC_JAFROC1, INACTIVE
+            MENUITEM "JAFROC1 Weighted",            IDM_FROC_JAFROC1_WEIGHTED, INACTIVE
+            MENUITEM "JAFROC2",                     IDM_FROC_JAFROC2, INACTIVE
+            MENUITEM "JAFROC2 Weighted",            IDM_FROC_JAFROC2_WEIGHTED, INACTIVE
+            MENUITEM "MAX_NLF",                     IDM_FROC_MAX_NLF_ANALYSIS, INACTIVE
+            MENUITEM "MAX_LLF",                     IDM_FROC_MAX_LLF_ANALYSIS, INACTIVE
+            MENUITEM "MAX_NLF_INFERRED_SPECIFICITY", IDM_EXP_TRNSFM_SPECIFICITY, INACTIVE
+            MENUITEM "Custom Analysis",             IDM_FROC_CUSTOM_ANALYSIS, INACTIVE
+        END
+        MENUITEM "ROI",                         IDM_ROI, INACTIVE
+    END
+    POPUP "Exploring The Data"
+    BEGIN
+        POPUP "Plotting Based on Selected Data File", INACTIVE
+        BEGIN
+            MENUITEM "Empirical plots",             IDM_EMPIRICALPLOTS
+            MENUITEM "Parametric plots",            IDM_PARAMETRICPLOTS
+        END
+        MENUITEM "Plotting Based on User Specified Search Model Parameter Values", IDM_PLOTTING
+        MENUITEM SEPARATOR
+        MENUITEM "Sample Size Calculator Based on Selected Data File", IDM_SAMPLESIZEESTIMATION, INACTIVE
+        MENUITEM "Sample Size Calculator Based on User Specified Values", IDM_SAMPLESIZECALCULATOR
+    END
+    POPUP "Options", INACTIVE
+    BEGIN
+        MENUITEM "Create ROC (*.lrc) file for DBM/MRMC", IDM_OPTIONS_CREATEROC
+        MENUITEM "Pseudovalue files for SAS",   IDM_OPTIONS_PSEUDOVALUEFILESFORSAS
+    END
+    POPUP "Analyze the Data", INACTIVE
+    BEGIN
+        MENUITEM "Run",                         IDM_ANALYZETHEDATA_RUN
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Help",                        IDM_HELP_HELP
+        MENUITEM "About JAFROC",                IDM_HELP_ABOUTJAFROC
+    END
+END
+
+IDR_MENU2 MENU
+BEGIN
+    POPUP "Analysis Method", INACTIVE
+    BEGIN
+        POPUP "ROC"
+        BEGIN
+            POPUP "Highest Rating Inferred ROC FOM"
+            BEGIN
+                MENUITEM "AUC",                         IDM_ROC_HR_AUC
+                MENUITEM "SENSITIVITY",                 IDM_ROC_HR_SENSITIVITY
+                MENUITEM "SPECIFICITY",                 IDM_ROC_HR_SPECIFICITY
+            END
+            POPUP "Song A1 Inferred ROC FOM"
+            BEGIN
+                MENUITEM "AUC",                         IDM_ROC_SONG_A1_AUC
+                MENUITEM "SENSITIVITY",                 IDM_ROC_SONG_A1_SENSITIVITY
+                MENUITEM "SPECIFICITY",                 IDM_ROC_SONG_A1_SPECIFICITY
+            END
+            POPUP "Song A2 Inferred ROC FOM"
+            BEGIN
+                MENUITEM "AUC",                         IDM_ROC_SONG_A2_AUC
+            END
+        END
+        POPUP "FROC"
+        BEGIN
+            MENUITEM "JAFROC1",                     IDM_FROC_JAFROC1
+            MENUITEM "JAFROC1 Weighted",            IDM_FROC_JAFROC1_WEIGHTED
+            MENUITEM "JAFROC2",                     IDM_FROC_JAFROC2
+            MENUITEM "JAFROC2 Weighted",            IDM_FROC_JAFROC2_WEIGHTED
+            MENUITEM "MAX_NLF",                     IDM_FROC_MAX_NLF_ANALYSIS
+            MENUITEM "MAX_LLF",                     IDM_FROC_MAX_LLF_ANALYSIS
+            MENUITEM "MAX_NLF_INFERRED_SPECIFICITY", IDM_EXP_TRNSFM_SPECIFICITY
+            MENUITEM "Custom Analysis",             IDM_FROC_CUSTOM_ANALYSIS
+        END
+        MENUITEM "ROI",                         IDM_ROI
+    END
+END
+
+IDR_MENU3 MENU
+BEGIN
+    POPUP "Options", INACTIVE
+    BEGIN
+        MENUITEM "Create ROC (*.lrc) file for DBM/MRMC", IDM_OPTIONS_CREATEROC
+        MENUITEM "Pseudovalue files for SAS",   IDM_OPTIONS_PSEUDOVALUEFILESFORSAS
+    END
+END
+
+IDR_MENU4 MENU
+BEGIN
+    POPUP "Analysis Method", INACTIVE
+    BEGIN
+        POPUP "ROC"
+        BEGIN
+            POPUP "Highest Rating Inferred ROC FOM"
+            BEGIN
+                MENUITEM "AUC",                         IDM_ROC_HR_AUC, INACTIVE
+                MENUITEM "SENSITIVITY",                 IDM_ROC_HR_SENSITIVITY, INACTIVE
+                MENUITEM "SPECIFICITY",                 IDM_ROC_HR_SPECIFICITY, INACTIVE
+            END
+            POPUP "Song A1 Inferred ROC FOM"
+            BEGIN
+                MENUITEM "AUC",                         IDM_ROC_SONG_A1_AUC, INACTIVE
+                MENUITEM "SENSITIVITY",                 IDM_ROC_SONG_A1_SENSITIVITY, INACTIVE
+                MENUITEM "SPECIFICITY",                 IDM_ROC_SONG_A1_SPECIFICITY, INACTIVE
+            END
+            POPUP "Song A2 Inferred ROC FOM"
+            BEGIN
+                MENUITEM "AUC",                         IDM_ROC_SONG_A2_AUC, INACTIVE
+            END
+        END
+        POPUP "FROC"
+        BEGIN
+            MENUITEM "JAFROC1",                     IDM_FROC_JAFROC1, INACTIVE
+            MENUITEM "JAFROC1 Weighted",            IDM_FROC_JAFROC1_WEIGHTED, INACTIVE
+            MENUITEM "JAFROC2",                     IDM_FROC_JAFROC2, INACTIVE
+            MENUITEM "JAFROC2 Weighted",            IDM_FROC_JAFROC2_WEIGHTED, INACTIVE
+            MENUITEM "MAX_NLF",                     IDM_FROC_MAX_NLF_ANALYSIS, INACTIVE
+            MENUITEM "MAX_LLF",                     IDM_FROC_MAX_LLF_ANALYSIS, INACTIVE
+            MENUITEM "MAX_NLF_INFERRED_SPECIFICITY", IDM_EXP_TRNSFM_SPECIFICITY, INACTIVE
+            MENUITEM "Custom Analysis",             IDM_FROC_CUSTOM_ANALYSIS, INACTIVE
+        END
+        MENUITEM "ROI",                         IDM_ROI, INACTIVE
+    END
+END
+
+IDR_MENU5 MENU
+BEGIN
+    POPUP "Exploring The Data"
+    BEGIN
+        POPUP "Plotting Based on Selected Data File", INACTIVE
+        BEGIN
+            MENUITEM "Empirical plots",             IDM_EMPIRICALPLOTS
+            MENUITEM "Parametric plots",            IDM_PARAMETRICPLOTS
+        END
+        MENUITEM "Plotting Based on User Specified Search Model Parameter Values", IDM_PLOTTING
+        MENUITEM SEPARATOR
+        MENUITEM "Sample Size Calculator Based on Selected Data File", IDM_SAMPLESIZEESTIMATION, INACTIVE
+        MENUITEM "Sample Size Calculator Based on User Specified Values", IDM_SAMPLESIZECALCULATOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR 25, 30
+BEGIN
+    BUTTON      IDT_OPEN
+    SEPARATOR
+END
+
+IDR_TOOLBAR2 TOOLBAR 72, 30
+BEGIN
+    BUTTON      IDT_METHODS
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+IDR_TOOLBAR3 TOOLBAR 90, 30
+BEGIN
+    BUTTON      IDT_EXPLORING
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+IDR_TOOLBAR4 TOOLBAR 30, 30
+BEGIN
+    BUTTON      IDT_OPTIONS
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+IDR_TOOLBAR5 TOOLBAR 90, 30
+BEGIN
+    BUTTON      IDT_RUN
+    SEPARATOR
+END
+
+IDR_TOOLBAR6 TOOLBAR 25, 30
+BEGIN
+    BUTTON      IDT_HELP
+END
+
+IDR_TOOLBAR7 TOOLBAR 30, 30
+BEGIN
+    BUTTON      IDT_OPEN
+    SEPARATOR
+END
+
+IDR_TOOLBAR8 TOOLBAR 90, 30
+BEGIN
+    BUTTON      IDT_METHODS
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+IDR_TOOLBAR9 TOOLBAR 110, 30
+BEGIN
+    BUTTON      IDT_EXPLORING
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+IDR_TOOLBAR10 TOOLBAR 35, 30
+BEGIN
+    BUTTON      IDT_OPTIONS
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+IDR_TOOLBAR11 TOOLBAR 115, 30
+BEGIN
+    BUTTON      IDT_RUN
+    SEPARATOR
+END
+
+IDR_TOOLBAR12 TOOLBAR 30, 30
+BEGIN
+    BUTTON      IDT_HELP
+END
+
+IDR_TOOLBAR13 TOOLBAR 20, 30
+BEGIN
+    BUTTON      IDT_OPEN
+    SEPARATOR
+END
+
+IDR_TOOLBAR14 TOOLBAR 60, 30
+BEGIN
+    BUTTON      IDT_METHODS
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+IDR_TOOLBAR15 TOOLBAR 80, 30
+BEGIN
+    BUTTON      IDT_EXPLORING
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+IDR_TOOLBAR16 TOOLBAR 25, 30
+BEGIN
+    BUTTON      IDT_OPTIONS
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+IDR_TOOLBAR17 TOOLBAR 80, 30
+BEGIN
+    BUTTON      IDT_RUN
+    SEPARATOR
+END
+
+IDR_TOOLBAR18 TOOLBAR 25, 30
+BEGIN
+    BUTTON      IDT_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR1            BITMAP                  "res\\toolbar1.bmp"
+IDR_TOOLBAR2            BITMAP                  "res\\toolbar2.bmp"
+IDR_TOOLBAR3            BITMAP                  "res\\toolbar3.bmp"
+IDR_TOOLBAR4            BITMAP                  "res\\toolbar4.bmp"
+IDR_TOOLBAR5            BITMAP                  "res\\toolbar5.bmp"
+IDR_TOOLBAR6            BITMAP                  "res\\toolbar6.bmp"
+IDR_TOOLBAR7            BITMAP                  "res\\toolbar7.bmp"
+IDR_TOOLBAR8            BITMAP                  "res\\toolbar8.bmp"
+IDR_TOOLBAR9            BITMAP                  "res\\toolbar9.bmp"
+IDR_TOOLBAR10           BITMAP                  "res\\bmp00001.bmp"
+IDR_TOOLBAR11           BITMAP                  "res\\bmp00002.bmp"
+IDR_TOOLBAR12           BITMAP                  "res\\bmp00003.bmp"
+IDR_TOOLBAR13           BITMAP                  "res\\bmp00004.bmp"
+IDR_TOOLBAR14           BITMAP                  "res\\bmp00005.bmp"
+IDR_TOOLBAR15           BITMAP                  "res\\bmp00006.bmp"
+IDR_TOOLBAR16           BITMAP                  "res\\bmp00007.bmp"
+IDR_TOOLBAR17           BITMAP                  "res\\bmp00008.bmp"
+IDR_TOOLBAR18           BITMAP                  "res\\bmp00009.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About JAFROC..."
+END
+
+STRINGTABLE
+BEGIN
+    IDM_FILE_SELECTDATAFILE "Please select appropriate data file."
+END
+
+STRINGTABLE
+BEGIN
+    IDT_RUN                 "Analyze Data (apply DBM-MRMC significance testing)"
+    IDT_OPEN                "Please select appropriate data file."
+END
+
+STRINGTABLE
+BEGIN
+    IDM_FROC_CUSTOM_ANALYSIS "Custom analysis, not for general use"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\JAFROC.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

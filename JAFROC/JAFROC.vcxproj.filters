@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\XLReader">
+      <UniqueIdentifier>{ee47e15b-1f86-40a2-acaa-9aeeb46fe300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Analysis">
+      <UniqueIdentifier>{4863e44c-8993-4927-8833-e2d9e5f5e8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IDL Conversion Support">
+      <UniqueIdentifier>{bc695e41-555c-45a9-97f9-275585c62356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Search Model Fitting">
+      <UniqueIdentifier>{85753710-4373-4ffb-b322-3e4216dae3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Report">
+      <UniqueIdentifier>{d6225d17-cf58-4551-9f2f-c74e89bb9930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Support Functions">
+      <UniqueIdentifier>{0410d878-2cdc-4448-8a3f-071c249a0b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bin and Cumulate">
+      <UniqueIdentifier>{c2ba40ca-a299-4e97-a171-d5b967590fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Raw FROC">
+      <UniqueIdentifier>{6d19a460-ad2c-4fb2-be88-4df15265b400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FitPlot">
+      <UniqueIdentifier>{92746bcd-7aa0-4af5-aaa4-7e8b26102220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sample Size Estimation">
+      <UniqueIdentifier>{db030d5b-bcb7-4b42-aeb1-6a7aff2444cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JAFROC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JAFROCDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XLReader\data_handler.cpp">
+      <Filter>Source Files\XLReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Analysis\Analysis.cpp">
+      <Filter>Source Files\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="Analysis\Data_QC_Check.cpp">
+      <Filter>Source Files\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL Conversion Support\array_count.cpp">
+      <Filter>Source Files\IDL Conversion Support</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL Conversion Support\min_max.cpp">
+      <Filter>Source Files\IDL Conversion Support</Filter>
+    </ClCompile>
+    <ClCompile Include="IDL Conversion Support\where.cpp">
+      <Filter>Source Files\IDL Conversion Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\chisqr.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\constrained_fit.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\find_mu.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\FindMu_Minimize_G.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\FindZeta_Minimize_G.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\fom.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\initial_values.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\LogLikelihoodPoi.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\multimin.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\run_amebsa.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\run_amoeba.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\siman.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\sm_afroc_ml_fit.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\sm_froc_ml_fit.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\sm_roc_ml_fit.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Model Fitting\TransformsPoi.cpp">
+      <Filter>Source Files\Search Model Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\excel_plotting_routine.cpp">
+      <Filter>Source Files\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\Print_JK_Results.cpp">
+      <Filter>Source Files\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\print_pseudovalues.cpp">
+      <Filter>Source Files\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\PrintDataSummary.cpp">
+      <Filter>Source Files\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Report\save_mrmc_file.cpp">
+      <Filter>Source Files\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="Support Functions\AnalyticFormulae.cpp">
+      <Filter>Source Files\Support Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Support Functions\chisqr_pdf.cpp">
+      <Filter>Source Files\Support Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Support Functions\stud_t_dist.cpp">
+      <Filter>Source Files\Support Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Support Functions\studrange.cpp">
+      <Filter>Source Files\Support Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Bin and Cumulate\bin_and_cumulate_afroc_data.cpp">
+      <Filter>Source Files\Bin and Cumulate</Filter>
+    </ClCompile>
+    <ClCompile Include="Bin and Cumulate\bin_and_cumulate_froc_data.cpp">
+      <Filter>Source Files\Bin and Cumulate</Filter>
+    </ClCompile>
+    <ClCompile Include="Bin and Cumulate\bin_and_cumulate_roc_data.cpp">
+      <Filter>Source Files\Bin and Cumulate</Filter>
+    </ClCompile>
+    <ClCompile Include="Bin and Cumulate\convert_to_roc.cpp">
+      <Filter>Source Files\Bin and Cumulate</Filter>
+    </ClCompile>
+    <ClCompile Include="Bin and Cumulate\find_optimal_cutoffs.cpp">
+      <Filter>Source Files\Bin and Cumulate</Filter>
+    </ClCompile>
+    <ClCompile Include="RawFROCPlotDialog.cpp">
+      <Filter>Source Files\Raw FROC</Filter>
+    </ClCompile>
+    <ClCompile Include="FitPlotDialog.cpp">
+      <Filter>Source Files\FitPlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample Size Estimation\SampleSizeEstimation.cpp">
+      <Filter>Source Files\Sample Size Estimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample Size Estimation\asa243.cpp">
+      <Filter>Source Files\Sample Size Estimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample Size Estimation\dcdflib.cpp">
+      <Filter>Source Files\Sample Size Estimation</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleSizeDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Support Functions\myqromb.cpp">
+      <Filter>Source Files\Support Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBoxCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Analysis\ANOVA_DLL.cpp">
+      <Filter>Source Files\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="raw_froc.cpp">
+      <Filter>Source Files\Raw FROC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Analysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bin and Cumulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="data_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FitPlotDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDL Conversion Support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JAFROC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JAFROC_CORE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JAFROCDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Raw FROC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RawFROCPlotDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Search Model Fitting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Support Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample Size Estimation\asa243.h">
+      <Filter>Source Files\Sample Size Estimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample Size Estimation\dcdflib.H">
+      <Filter>Source Files\Sample Size Estimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample Size Estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleSizeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBoxCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\JAFROC.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\JAFROC.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00005.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00006.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00007.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00008.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00009.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JAFROC.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="studrange.lib" />
+    <Library Include="ANOVA_DLL.lib" />
+  </ItemGroup>
+</Project>

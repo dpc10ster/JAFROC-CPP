@@ -1,0 +1,16 @@
+For all configurations(both debug and release)
+
+Properties of JAFROC_CORE->Configuration Properites->Build Events->Post-build event->Command Line
+
+copy /y "$(TargetPath)" "$(SolutionDir)Bin\$(Configuration)\"
+copy /y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)Lib\$(Configuration)\"
+
+
+
+
+Properties of JAFROC->Configuration Properites->Linker->Input->additional dependencies
+
+$(SolutionDir)Lib\$(Configuration)\nr_cpp.lib
+$(SolutionDir)Lib\$(Configuration)\JAFROC_CORE.lib
+libgsl.a
+libgslcblas.a

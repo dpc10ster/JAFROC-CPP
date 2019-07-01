@@ -1,0 +1,300 @@
+1>------ Rebuild All started: Project: JAFROC_CORE, Configuration: Debug Win32 ------
+2>------ Rebuild All started: Project: Sample Size Calculator, Configuration: Debug Win32 ------
+3>------ Rebuild All started: Project: Operating Characteristics, Configuration: Debug Win32 ------
+1>Build started 5/23/2013 3:24:39 PM.
+1>InitializeBuildStatus:
+1>  Creating "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\JAFROC_CORE\Debug\JAFROC_CORE.unsuccessfulbuild" because "AlwaysCreate" was specified.
+2>Build started 5/23/2013 3:24:39 PM.
+3>Build started 5/23/2013 3:24:39 PM.
+2>InitializeBuildStatus:
+2>  Creating "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\Sample Size Calculator\Debug\Sample Size Calculator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+3>InitializeBuildStatus:
+3>  Creating "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\Operating Characteristics\Debug\Operating Characteristics.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  stdafx.cpp
+2>ClCompile:
+2>  stdafx.cpp
+3>ClCompile:
+3>  stdafx.cpp
+1>  XLReader.cpp
+1>  treatment_means.cpp
+1>  studrange.cpp
+1>  stud_t_dist.cpp
+1>  MyFOM.cpp
+1>  min_max.cpp
+1>  mean_squares.cpp
+1>  JAFROC_V1_Loader.cpp
+1>  jackknife_FROC_Data.cpp
+1>  data_handler.cpp
+1>  chisqr_pdf.cpp
+1>  anova.cpp
+1>  AnalyticFormulae.cpp
+1>  Generating Code...
+1>  dllmain.cpp
+2>  stud_t_dist.cpp
+2>  SampleSizeEstimation.cpp
+2>  Sample Size CalculatorDlg.cpp
+2>  Sample Size Calculator.cpp
+2>  dcdflib.cpp
+2>  asa243.cpp
+2>  AnalyticFormulae.cpp
+2>  Generating Code...
+3>  Operating CharacteristicsDlg.cpp
+3>  Operating Characteristics.cpp
+1>Link:
+1>     Creating library C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Link\JAFROC_CORE\Debug\JAFROC_CORE.lib and object C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Link\JAFROC_CORE\Debug\JAFROC_CORE.exp
+3>  NLesions.cpp
+3>  InputDialog.cpp
+3>  GraphWnd.cpp
+3>  GraphDialog.cpp
+3>  fom.cpp
+1>Manifest:
+1>  Deleting file "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\JAFROC_CORE\Debug\JAFROC_CORE.dll.embed.manifest".
+2>nr_cpp.lib(gser.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+2>nr_cpp.lib(gammp.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol _exit imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol _exit imported
+2>nr_cpp.lib(gser.obj) : warning LNK4217: locally defined symbol _memmove imported in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(unsigned int,unsigned int)" (?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z)
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol _memmove imported in function "public: static char * __cdecl std::char_traits<char>::move(char *,char const *,unsigned int)" (?move@?$char_traits@D@std@@SAPADPADPBDI@Z)
+2>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol _memmove imported
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol _memmove imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol _memmove imported
+2>nr_cpp.lib(gser.obj) : warning LNK4217: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported in function "public: __thiscall std::bad_alloc::bad_alloc(char const *)" (??0bad_alloc@std@@QAE@PBD@Z)
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported in function "public: __thiscall std::bad_alloc::bad_alloc(char const *)" (??0bad_alloc@std@@QAE@PBD@Z)
+2>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+2>nr_cpp.lib(gser.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported in function "public: virtual __thiscall std::bad_alloc::~bad_alloc(void)" (??1bad_alloc@std@@UAE@XZ)
+2>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+2>nr_cpp.lib(gser.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported in function "public: __thiscall std::bad_alloc::bad_alloc(class std::bad_alloc const &)" (??0bad_alloc@std@@QAE@ABV01@@Z)
+2>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+1>LinkEmbedManifest:
+1>     Creating library C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Link\JAFROC_CORE\Debug\JAFROC_CORE.lib and object C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Link\JAFROC_CORE\Debug\JAFROC_CORE.exp
+3>  Analytic Formulae.cpp
+1>  JAFROC_CORE.vcxproj -> C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Link\JAFROC_CORE\Debug\JAFROC_CORE.dll
+1>PostBuildEvent:
+1>          1 file(s) copied.
+1>          1 file(s) copied.
+1>FinalizeBuildStatus:
+1>  Deleting file "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\JAFROC_CORE\Debug\JAFROC_CORE.unsuccessfulbuild".
+1>  Touching "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\JAFROC_CORE\Debug\JAFROC_CORE.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:08.23
+4>------ Rebuild All started: Project: JAFROC, Configuration: Debug Win32 ------
+3>  Generating Code...
+4>Build started 5/23/2013 3:24:48 PM.
+4>InitializeBuildStatus:
+4>  Creating "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\JAFROC\Debug\JAFROC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+4>ClCompile:
+4>  stdafx.cpp
+2>Manifest:
+2>  Deleting file "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\Sample Size Calculator\Debug\Sample Size Calculator.exe.embed.manifest".
+2>nr_cpp.lib(gser.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+2>nr_cpp.lib(gammp.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol _exit imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol _exit imported
+2>nr_cpp.lib(gser.obj) : warning LNK4217: locally defined symbol _memmove imported in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(unsigned int,unsigned int)" (?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z)
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol _memmove imported in function "public: static char * __cdecl std::char_traits<char>::move(char *,char const *,unsigned int)" (?move@?$char_traits@D@std@@SAPADPADPBDI@Z)
+2>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol _memmove imported
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol _memmove imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol _memmove imported
+2>nr_cpp.lib(gser.obj) : warning LNK4217: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported in function "public: __thiscall std::bad_alloc::bad_alloc(char const *)" (??0bad_alloc@std@@QAE@PBD@Z)
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported in function "public: __thiscall std::bad_alloc::bad_alloc(char const *)" (??0bad_alloc@std@@QAE@PBD@Z)
+2>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+2>nr_cpp.lib(gser.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported in function "public: virtual __thiscall std::bad_alloc::~bad_alloc(void)" (??1bad_alloc@std@@UAE@XZ)
+2>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+2>nr_cpp.lib(gser.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+2>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported in function "public: __thiscall std::bad_alloc::bad_alloc(class std::bad_alloc const &)" (??0bad_alloc@std@@QAE@ABV01@@Z)
+2>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+2>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+2>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+2>  Sample Size Calculator.vcxproj -> C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Link\Sample Size Calculator\Debug\Sample Size Calculator.exe
+2>PostBuildEvent:
+2>          1 file(s) copied.
+2>FinalizeBuildStatus:
+2>  Deleting file "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\Sample Size Calculator\Debug\Sample Size Calculator.unsuccessfulbuild".
+2>  Touching "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\Sample Size Calculator\Debug\Sample Size Calculator.lastbuildstate".
+2>
+2>Build succeeded.
+2>
+2>Time Elapsed 00:00:11.29
+3>Manifest:
+3>  Deleting file "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\Operating Characteristics\Debug\Operating Characteristics.exe.embed.manifest".
+3>LinkEmbedManifest:
+3>  Operating Characteristics.vcxproj -> C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Link\Operating Characteristics\Debug\Operating Characteristics.exe
+3>PostBuildEvent:
+3>          1 file(s) copied.
+3>FinalizeBuildStatus:
+3>  Deleting file "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\Operating Characteristics\Debug\Operating Characteristics.unsuccessfulbuild".
+3>  Touching "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\Operating Characteristics\Debug\Operating Characteristics.lastbuildstate".
+3>
+3>Build succeeded.
+3>
+3>Time Elapsed 00:00:13.65
+4>  ANOVA_DLL.cpp
+4>  JAFROC.cpp
+4>  JAFROCDlg.cpp
+4>  ListBoxCH.cpp
+4>  asa243.cpp
+4>  dcdflib.cpp
+4>  SampleSizeEstimation.cpp
+4>  SampleSizeDialog.cpp
+4>  myqromb.cpp
+4>  data_handler.cpp
+4>  Analysis.cpp
+4>  Data_QC_Check.cpp
+4>  array_count.cpp
+4>  min_max.cpp
+4>  where.cpp
+4>  chisqr.cpp
+4>  constrained_fit.cpp
+4>  find_mu.cpp
+4>  FindMu_Minimize_G.cpp
+4>  FindZeta_Minimize_G.cpp
+4>  Generating Code...
+4>  Compiling...
+4>  fom.cpp
+4>  initial_values.cpp
+4>  LogLikelihoodPoi.cpp
+4>  multimin.cpp
+4>  run_amebsa.cpp
+4>  run_amoeba.cpp
+4>  siman.cpp
+4>  sm_afroc_ml_fit.cpp
+4>  sm_froc_ml_fit.cpp
+4>  sm_roc_ml_fit.cpp
+4>  TransformsPoi.cpp
+4>  excel_plotting_routine.cpp
+4>  Print_JK_Results.cpp
+4>  print_pseudovalues.cpp
+4>  PrintDataSummary.cpp
+4>  save_mrmc_file.cpp
+4>  AnalyticFormulae.cpp
+4>  chisqr_pdf.cpp
+4>  stud_t_dist.cpp
+4>  studrange.cpp
+4>  Generating Code...
+4>  Compiling...
+4>  bin_and_cumulate_afroc_data.cpp
+4>  bin_and_cumulate_froc_data.cpp
+4>  bin_and_cumulate_roc_data.cpp
+4>  convert_to_roc.cpp
+4>  find_optimal_cutoffs.cpp
+4>  raw_froc.cpp
+4>  RawFROCPlotDialog.cpp
+4>  FitPlotDialog.cpp
+4>  Generating Code...
+4>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol _exit imported
+4>nr_cpp.lib(gammp.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+4>nr_cpp.lib(betai.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+4>nr_cpp.lib(gcf.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+4>nr_cpp.lib(gser.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+4>nr_cpp.lib(polint.obj) : warning LNK4217: locally defined symbol _exit imported in function "void __cdecl NR::nrerror(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?nrerror@NR@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+4>nr_cpp.lib(brent.obj) : warning LNK4049: locally defined symbol _exit imported
+4>nr_cpp.lib(qromb.obj) : warning LNK4049: locally defined symbol _exit imported
+4>nr_cpp.lib(amoeba.obj) : warning LNK4049: locally defined symbol _exit imported
+4>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol _memmove imported
+4>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol _memmove imported
+4>nr_cpp.lib(betai.obj) : warning LNK4049: locally defined symbol _memmove imported
+4>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol _memmove imported
+4>nr_cpp.lib(gser.obj) : warning LNK4049: locally defined symbol _memmove imported
+4>nr_cpp.lib(polint.obj) : warning LNK4217: locally defined symbol _memmove imported in function "public: static char * __cdecl std::char_traits<char>::move(char *,char const *,unsigned int)" (?move@?$char_traits@D@std@@SAPADPADPBDI@Z)
+4>nr_cpp.lib(brent.obj) : warning LNK4217: locally defined symbol _memmove imported in function "public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Xlen(void)const " (?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ)
+4>nr_cpp.lib(qromb.obj) : warning LNK4217: locally defined symbol _memmove imported in function "public: bool __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Grow(unsigned int,bool)" (?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NI_N@Z)
+4>nr_cpp.lib(amoeba.obj) : warning LNK4049: locally defined symbol _memmove imported
+4>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+4>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+4>nr_cpp.lib(betai.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+4>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+4>nr_cpp.lib(gser.obj) : warning LNK4217: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported in function "public: virtual __thiscall std::bad_alloc::~bad_alloc(void)" (??1bad_alloc@std@@UAE@XZ)
+4>nr_cpp.lib(polint.obj) : warning LNK4217: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported in function "public: __thiscall std::bad_alloc::bad_alloc(char const *)" (??0bad_alloc@std@@QAE@PBD@Z)
+4>nr_cpp.lib(brent.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+4>nr_cpp.lib(qromb.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+4>nr_cpp.lib(amoeba.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABQBD@Z (public: __thiscall std::exception::exception(char const * const &)) imported
+4>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+4>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+4>nr_cpp.lib(betai.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+4>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+4>nr_cpp.lib(gser.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+4>nr_cpp.lib(polint.obj) : warning LNK4217: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported in function "public: virtual __thiscall std::bad_alloc::~bad_alloc(void)" (??1bad_alloc@std@@UAE@XZ)
+4>nr_cpp.lib(brent.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+4>nr_cpp.lib(qromb.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+4>nr_cpp.lib(amoeba.obj) : warning LNK4049: locally defined symbol ??1exception@std@@UAE@XZ (public: virtual __thiscall std::exception::~exception(void)) imported
+4>nr_cpp.lib(betacf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+4>nr_cpp.lib(gammp.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+4>nr_cpp.lib(betai.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+4>nr_cpp.lib(gcf.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+4>nr_cpp.lib(gser.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+4>nr_cpp.lib(polint.obj) : warning LNK4217: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported in function "public: __thiscall std::bad_alloc::bad_alloc(class std::bad_alloc const &)" (??0bad_alloc@std@@QAE@ABV01@@Z)
+4>nr_cpp.lib(brent.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+4>nr_cpp.lib(qromb.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+4>nr_cpp.lib(amoeba.obj) : warning LNK4049: locally defined symbol ??0exception@std@@QAE@ABV01@@Z (public: __thiscall std::exception::exception(class std::exception const &)) imported
+4>libgsl.a(rng_default.o) : warning LNK4217: locally defined symbol __iob imported in function _gsl_rng_env_setup
+4>libgsl.a(err_error.o) : warning LNK4217: locally defined symbol __iob imported in function _gsl_error
+4>libgsl.a(err_stream.o) : warning LNK4049: locally defined symbol __iob imported
+4>libgslcblas.a(xerbla.o) : warning LNK4217: locally defined symbol __iob imported in function _cblas_xerbla
+4>Manifest:
+4>  Deleting file "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\JAFROC\Debug\JAFROC.exe.embed.manifest".
+4>LinkEmbedManifest:
+4>  JAFROC.vcxproj -> C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Link\JAFROC\Debug\JAFROC.exe
+4>PostBuildEvent:
+4>          1 file(s) copied.
+4>FinalizeBuildStatus:
+4>  Deleting file "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\JAFROC\Debug\JAFROC.unsuccessfulbuild".
+4>  Touching "C:\JAFROC_C\JAFROC_C\JAFROC\Temp\Compile\JAFROC\Debug\JAFROC.lastbuildstate".
+4>
+4>Build succeeded.
+4>
+4>Time Elapsed 00:00:15.10
+------ Starting pre-build validation for project 'Setup' ------ 
+WARNING: File 'plot_template.xls' should not be installed into a User's Profile folder because it may not be available to all users.
+WARNING: File 'DataFile.xls' should not be installed into a User's Profile folder because it may not be available to all users.
+WARNING: File 'ROI example.xls' should not be installed into a User's Profile folder because it may not be available to all users.
+WARNING: File 'TestFile_NH_PASS.txt' should not be installed into a User's Profile folder because it may not be available to all users.
+WARNING: File 'ROI example.xls' should not be installed into a User's Profile folder because it may not be available to all users.
+WARNING: File 'DataFile.xls' should not be installed into a User's Profile folder because it may not be available to all users.
+------ Pre-build validation for project 'Setup' completed ------
+5>------ Rebuild All started: Project: Setup, Configuration: Debug ------
+Building file 'C:\JAFROC_C\JAFROC_C\JAFROC\Setup\Debug\Setup.msi'...
+WARNING: The target version of the .NET Framework in the project does not match the .NET Framework launch condition version '.NET Framework 4 Client Profile'. Update the version of the .NET Framework launch condition to match the target version of the.NET Framework in the Advanced Compile Options Dialog Box (VB) or the Application Page (C#, F#).
+Packaging file 'plot_template.xls'...
+Packaging file 'Sample Size Calculator.exe'...
+Packaging file 'ANOVA_DLL.dll'...
+Packaging file 'DataFile.xls'...
+Packaging file 'pokcd5cu.dll'...
+Packaging file 'mw2dsezf.dll'...
+Packaging file 'Operating Characteristics.exe'...
+Packaging file 'wnx7ark1.dll'...
+Packaging file 'plot_template.xls'...
+Packaging file 'JAFROC_V4_ReadMe_1_18_11.pdf'...
+Packaging file 'JAFROC_CORE.h'...
+Packaging file 'DCDFLIB.dll'...
+Packaging file 'JAFROC_CORE.lib'...
+Packaging file 'JAFROC Development Kit Guide.pdf'...
+Packaging file 'ROI example.xls'...
+Packaging file 'TestFile_NH_PASS.txt'...
+Packaging file 'TestFile_NH_PASS.txt'...
+Packaging file 'JAFROC.exe'...
+Packaging file 'mfcm100d.dll'...
+Packaging file 'DataFile.xls'...
+Packaging file 'ROI example.xls'...
+Packaging file 'ROI example.xls'...
+Packaging file 'DataFile.xls'...
+Packaging file 'mfc100d.dll'...
+Packaging file 'mfc100ud.dll'...
+========== Rebuild All: 5 succeeded, 0 failed, 0 skipped ==========

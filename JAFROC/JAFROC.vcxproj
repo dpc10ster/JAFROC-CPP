@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FB9080E7-14A1-48BB-A10D-6CA72FEC240D}</ProjectGuid>
+    <RootNamespace>JAFROC</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>NotSet</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)Temp\Link\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)Temp\Compile\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)Temp\Link\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)Temp\Compile\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IncludePath);$(SolutionDir)Include;c:\GnuWin32\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)Lib\$(Configuration);c:\GnuWin32\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IncludePath);$(SolutionDir)Include;c:\GnuWin32\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)Lib\$(Configuration);c:\GnuWin32\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(SolutionDir)Lib\$(Configuration);c:\GnuWin32\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(IncludePath);$(SolutionDir)Include\;c:\GnuWin32\include\</IncludePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ExecutablePath)</ExecutablePath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <ExcludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(SolutionDir)Temp\Link\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(SolutionDir)Temp\Compile\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(SolutionDir)Lib\$(Configuration)\nr_cpp.lib;$(SolutionDir)Lib\$(Configuration)\JAFROC_CORE.lib;libgsl.a;libgslcblas.a;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ShowProgress>NotSet</ShowProgress>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetPath)" "$(SolutionDir)Bin\$(Configuration)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>$(SolutionDir)Lib\$(Configuration)\nr_cpp.lib;$(SolutionDir)Lib\$(Configuration)\JAFROC_CORE.lib;libgsl.a;libgslcblas.a;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>MSVCRT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetPath)" "$(SolutionDir)Bin\$(Configuration)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Link>
+      <AdditionalDependencies>$(SolutionDir)Lib\$(Configuration)\nr_cpp.lib;$(SolutionDir)Lib\$(Configuration)\JAFROC_CORE.lib;libgsl.a;libgslcblas.a;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetPath)" "$(SolutionDir)Bin\$(Configuration)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Analysis\ANOVA_DLL.cpp" />
+    <ClCompile Include="JAFROC.cpp" />
+    <ClCompile Include="JAFROCDlg.cpp" />
+    <ClCompile Include="ListBoxCH.cpp" />
+    <ClCompile Include="Sample Size Estimation\asa243.cpp" />
+    <ClCompile Include="Sample Size Estimation\dcdflib.cpp" />
+    <ClCompile Include="Sample Size Estimation\SampleSizeEstimation.cpp" />
+    <ClCompile Include="SampleSizeDialog.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Support Functions\myqromb.cpp" />
+    <ClCompile Include="XLReader\data_handler.cpp" />
+    <ClCompile Include="Analysis\Analysis.cpp" />
+    <ClCompile Include="Analysis\Data_QC_Check.cpp" />
+    <ClCompile Include="IDL Conversion Support\array_count.cpp" />
+    <ClCompile Include="IDL Conversion Support\min_max.cpp" />
+    <ClCompile Include="IDL Conversion Support\where.cpp" />
+    <ClCompile Include="Search Model Fitting\chisqr.cpp" />
+    <ClCompile Include="Search Model Fitting\constrained_fit.cpp" />
+    <ClCompile Include="Search Model Fitting\find_mu.cpp" />
+    <ClCompile Include="Search Model Fitting\FindMu_Minimize_G.cpp" />
+    <ClCompile Include="Search Model Fitting\FindZeta_Minimize_G.cpp" />
+    <ClCompile Include="Search Model Fitting\fom.cpp" />
+    <ClCompile Include="Search Model Fitting\initial_values.cpp" />
+    <ClCompile Include="Search Model Fitting\LogLikelihoodPoi.cpp" />
+    <ClCompile Include="Search Model Fitting\multimin.cpp" />
+    <ClCompile Include="Search Model Fitting\run_amebsa.cpp" />
+    <ClCompile Include="Search Model Fitting\run_amoeba.cpp" />
+    <ClCompile Include="Search Model Fitting\siman.cpp" />
+    <ClCompile Include="Search Model Fitting\sm_afroc_ml_fit.cpp" />
+    <ClCompile Include="Search Model Fitting\sm_froc_ml_fit.cpp" />
+    <ClCompile Include="Search Model Fitting\sm_roc_ml_fit.cpp" />
+    <ClCompile Include="Search Model Fitting\TransformsPoi.cpp" />
+    <ClCompile Include="Report\excel_plotting_routine.cpp" />
+    <ClCompile Include="Report\Print_JK_Results.cpp" />
+    <ClCompile Include="Report\print_pseudovalues.cpp" />
+    <ClCompile Include="Report\PrintDataSummary.cpp" />
+    <ClCompile Include="Report\save_mrmc_file.cpp" />
+    <ClCompile Include="Support Functions\AnalyticFormulae.cpp" />
+    <ClCompile Include="Support Functions\chisqr_pdf.cpp" />
+    <ClCompile Include="Support Functions\stud_t_dist.cpp" />
+    <ClCompile Include="Support Functions\studrange.cpp" />
+    <ClCompile Include="Bin and Cumulate\bin_and_cumulate_afroc_data.cpp" />
+    <ClCompile Include="Bin and Cumulate\bin_and_cumulate_froc_data.cpp" />
+    <ClCompile Include="Bin and Cumulate\bin_and_cumulate_roc_data.cpp" />
+    <ClCompile Include="Bin and Cumulate\convert_to_roc.cpp" />
+    <ClCompile Include="Bin and Cumulate\find_optimal_cutoffs.cpp" />
+    <ClCompile Include="raw_froc.cpp" />
+    <ClCompile Include="RawFROCPlotDialog.cpp" />
+    <ClCompile Include="FitPlotDialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Analysis.h" />
+    <ClInclude Include="Bin and Cumulate.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="data_handler.h" />
+    <ClInclude Include="FitPlotDialog.h" />
+    <ClInclude Include="IDL Conversion Support.h" />
+    <ClInclude Include="JAFROC.h" />
+    <ClInclude Include="JAFROC_CORE.h" />
+    <ClInclude Include="JAFROCDlg.h" />
+    <ClInclude Include="ListBoxCH.h" />
+    <ClInclude Include="MyStrings.h" />
+    <ClInclude Include="Raw FROC.h" />
+    <ClInclude Include="RawFROCPlotDialog.h" />
+    <ClInclude Include="Report.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sample Size Estimation.h" />
+    <ClInclude Include="Sample Size Estimation\asa243.h" />
+    <ClInclude Include="Sample Size Estimation\dcdflib.H" />
+    <ClInclude Include="SampleSizeDialog.h" />
+    <ClInclude Include="Search Model Fitting.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Support Functions.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\bmp00003.bmp" />
+    <None Include="res\bmp00004.bmp" />
+    <None Include="res\bmp00005.bmp" />
+    <None Include="res\bmp00006.bmp" />
+    <None Include="res\bmp00007.bmp" />
+    <None Include="res\bmp00008.bmp" />
+    <None Include="res\bmp00009.bmp" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\JAFROC.ico" />
+    <None Include="res\JAFROC.rc2" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar2.bmp" />
+    <None Include="res\toolbar3.bmp" />
+    <None Include="res\toolbar4.bmp" />
+    <None Include="res\toolbar5.bmp" />
+    <None Include="res\toolbar6.bmp" />
+    <None Include="res\toolbar7.bmp" />
+    <None Include="res\toolbar8.bmp" />
+    <None Include="res\toolbar9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JAFROC.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ANOVA_DLL.lib" />
+    <Library Include="studrange.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="JAFROC.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
